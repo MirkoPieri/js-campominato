@@ -7,7 +7,7 @@
 var number = [], indovinati = 0, numeriInseriti, elemento = document.getElementById('mio_id'), elemento1 = document.getElementById('mio_id1');
 
 function generated(max, min) {
-  for (var i = 0; i < 3; i++) {
+  for (var i = 0; i < 16; i++) {
     var numeroGenerato = Math.floor(Math.random() * (max)) + min;
     number.push(numeroGenerato);
   }
